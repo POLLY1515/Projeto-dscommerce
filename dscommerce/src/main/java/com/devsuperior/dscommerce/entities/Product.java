@@ -30,7 +30,9 @@ public class Product {
 	@Column(columnDefinition = "TEXT")
 	private String description;
 	private Double price;
-	private String imgUrl;
+	private String imgUrl;//quando for passar um atributo para o banco que seja camelcase o
+	//jpa por padrao converte para snackcase,ficando da seguinte forma:
+	//img_url
 	
 	
 	

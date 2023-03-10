@@ -20,7 +20,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name = "tb-order")
+@Table(name = "TB_ORDER")
 public class Order {
 	
 	
